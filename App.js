@@ -13,7 +13,7 @@ const SpeakifyScreen = ({ navigation }) => {
   };
   return (
     <WebView
-      source={{ uri: "https://tensor-testing-native.herokuapp.com/" }}
+      source={{ uri: "https://thespeakifyapp.herokuapp.com/" }}
       style={{ marginTop: -10, marginRight: 0, height: 200 }}
       // renderLoading={LoadingIndicatorView}
       startInLoadingState={true}
